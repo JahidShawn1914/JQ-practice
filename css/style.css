@@ -1,0 +1,13 @@
+.block{
+    position: relative;
+    background-color: cadetblue;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+#block{
+    width: 100px;
+    border: 1px solid green;
+    background-color: bisque;
+}
