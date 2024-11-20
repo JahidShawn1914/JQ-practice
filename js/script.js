@@ -35,6 +35,7 @@ $(document).ready(function(){
         },1500);
     });
 
+
     $("input")
     .on("keyup",function(){
         var value = $(this).val();
@@ -44,5 +45,21 @@ $(document).ready(function(){
     $(".ch2").on("click",function(){
         $(this).hide();
     })
+
+    $("#class").on('click',function(){
+        $("ul li:first-child").hide();
+    })
+
+    // $('.mouse').mousedown(function(){
+    //     alert("bye")
+    // })
+
+    $(".mouse").hover(function(){
+        alert("Hi")
+    }, function(){
+        alert("bye")
+    })
+
+    
 })
 // JQ end
